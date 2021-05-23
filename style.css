@@ -1,0 +1,41 @@
+body {
+    background: #A94442;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.row {
+    margin-bottom: 25px;
+    position: relative;
+    font-size: 30px;
+
+
+}
+
+
+input {
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+input[type=submit]{
+    float: right;
+    background: #A94442;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    text-decoration: none;
+
+}
+input:hover{
+    opacity: .7;
+}
